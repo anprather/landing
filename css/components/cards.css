@@ -1,0 +1,30 @@
+
+.text-center {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 20px;
+  padding-bottom: 100px;
+}
+
+.card {
+  width: 200px;
+  border: rgba(230, 230, 230, 1) 1px solid;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card img {
+  height: 100px;
+  align-self: center;
+}
+
+.card p {
+  line-height: 1.1;
+  opacity: .4;
+  padding-bottom: 20px;
+}
